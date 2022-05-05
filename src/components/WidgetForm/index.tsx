@@ -45,7 +45,7 @@ export function WidgetForm() {
 
             {!feedbackType ? (
 
-               <FeedbackTypeStep onFeedbackTypeChanged={setFeedbackType}/>
+                <FeedbackTypeStep onFeedbackTypeChanged={setFeedbackType} />
             ) : (
                 <p>eai</p>
             )}
